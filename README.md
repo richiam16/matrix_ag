@@ -1,4 +1,4 @@
-This set of utilites were created back in 2021 to create a matrix representation of the atomic graph (The critical point of the electronic laplacian $\nabla^2 \rho (r)$). The atomic graph is an Euler topoligical object that is made up of vertices (Yellow), Edges (Green) and Faces(Pink) (See picture below) and therefore fulfill Euler formula V+F-E= 2.
+This set of utilites were created back in 2021 to create a matrix representation of the atomic graph (The critical point of the electronic laplacian ($\nabla^2 \rho (r)$). The atomic graph is an Euler topoligical object that is made up of vertices (Yellow), Edges (Green) and Faces(Pink) (See picture below) and therefore fulfill Euler formula V+F-E= 2.
 Below is an example of the atomic graph from the Hexaaquacopper(II):
 ![alt text](figures/0_M.jpg?raw=true)
 ![alt text](figures/cu_m.png?raw=true)
