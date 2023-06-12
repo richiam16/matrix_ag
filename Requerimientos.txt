@@ -1,0 +1,19 @@
+Python 3.9.6
+re 2.2.1
+numpy 1.21.1
+argparse 1.1
+pandas 1.3.1
+glob 0.6
+os
+
+Para correr (varios archivos):
+
+python AG.py FODLER (con las carpetas atomic_files) -r (que propiedad en filas (v o e)), -c (que propiedad en columnas (v o e))
+
+correr este archivo genera un "data.csv" con la información del determinante de la matriz y crea una carpeta "Matrices_" con las matrices en formato en csv
+
+Para correr (individual): Nota (el archivo AG debe de estar en la misma carpeta en la que se esta trabajando o agregarla la direccion del archivo con: import sys
+
+sys.path.append("**Put here the directory where you have the file with your function**"))
+
+Abrir un .py o un archivo de jupyter. Importar el metodo get_ag(agpviz,filtro(distancia para puntos criticos)--opcional,rows,columns)
