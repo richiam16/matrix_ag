@@ -1,9 +1,9 @@
-This set of utilites were created back in 2021 to create a matrix representation of the atomic graph (The critical point of the electronic laplacian $\nabla \rho (r)$). The atomic graph is an Euler topoligical object that is made up of vertices (Yellow), Edges (Green) and Faces(Pink) and therefore fulfill Euler formula V+F-E= 2.
+This set of utilites were created back in 2021 to create a matrix representation of the atomic graph (The critical point of the electronic laplacian $\nabla^2 \rho (r)$). The atomic graph is an Euler topoligical object that is made up of vertices (Yellow), Edges (Green) and Faces(Pink) (See picture below) and therefore fulfill Euler formula V+F-E= 2.
 Below is an example of the atomic graph from the Hexaaquacopper(II):
 ![alt text](figures/0_M.jpg?raw=true)
 ![alt text](figures/cu_m.png?raw=true)
 
-This graph is specif for a certain atom in a defined oxidation state. The script AG.py contains two classes: Ag and Cp, the first is to fully represent the atomic graph of an atom and the second represents the critical points within an atom. The main function of this script will create an Ag object that will have a matrix of # of edgeds columns and # of vertices columns with the values of $\nabla \rho (r)$.
+This graph is specif for a certain atom in a defined oxidation state. The script AG.py contains two classes: Ag and CP, the first is to fully represent the atomic graph of an atom and the second represents the critical points within an atom. The main function of this script will create an Ag object that will have a square matrix of # of vertices with the values of $\nabla^2 \rho (r)$ of the connected edges.
 This script is called from terminal by:
 
 python AG.py PATH_OF_AGPVIZ 
