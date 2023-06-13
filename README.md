@@ -3,7 +3,7 @@ Below is an example of the atomic graph from the Hexaaquacopper(II):
 ![copper_aqua](figures/0_M.jpg?raw=true)
 ![atomic_graph](figures/cu_m.png?raw=true)
 
-This graph is specif for a certain atom in a defined oxidation state. The script AG.py contains two classes: Ag and CP, the first is to fully represent the atomic graph of an atom and the second represents the critical points within an atom. The main() function of this script will create an Ag object that will have a square matrix of # of vertices with the values of $\nabla^2 \rho (r)$ of the connected edges.
+This graph is specific for a certain atom in a defined oxidation state. The script AG.py contains two classes: Ag and CP, the first is to fully represent the atomic graph of an atom and the second represents the critical points within an atom. The main() function of this script will create an Ag object that will have a square matrix of # of vertices with the values of $\nabla^2 \rho (r)$ of the connected edges.
 This script is called from terminal by:
 
 python AG.py PATH_OF_AGPVIZ (Individual file) 
@@ -25,7 +25,7 @@ The script can also get the information of folders with a set of many .agpviz fi
 
 multiple_files(PATH, name) # Here name represents the name that the user wants to give to an existing file, one can also include the path where this file should be written.
 
-The outpout of this action is file with four columns: # of file, path of the file, metal, "[F,E,V]", "AGD"
+The outpout of this action is file with four columns: # of file, path of the file, metal, "[F,E,V]", The determinant of the matrix
 
 The user of this script can get more information about the atomic graph and its components in the book chapter: https://doi.org/10.1016/B978-0-323-90891-7.00018-9
 from the book, QTAIM and beyond.
